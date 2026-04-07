@@ -116,6 +116,13 @@ The repository now includes an initial React and TypeScript application scaffold
 - Match export to PDF and JSON with names, timestamps, completed game history, and basic performance metrics
 - Responsive layout aimed primarily at desktop, iPad, and iPhone
 
+## GitHub Pages deployment
+
+- The repo includes a GitHub Pages workflow at `.github/workflows/deploy-pages.yml`
+- Pushing the `dev` branch will run tests, build the app, and deploy the `dist/` output to Pages
+- In GitHub repository settings, set `Pages` to use `GitHub Actions` as the source
+- For this repository, the public app URL should be `https://ruriktv.github.io/Tourna/`
+
 ## Near-term build plan
 
 1. Define the match state model and rules engine for singles and doubles
