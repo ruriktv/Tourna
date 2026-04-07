@@ -35,7 +35,8 @@ jobs:
         run: |
           node -v
           npm -v
-          npm install
+          rm -f package-lock.json
+          npm install --package-lock=false
 
       - name: Run tests
         run: npm test
