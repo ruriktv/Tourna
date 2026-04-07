@@ -491,6 +491,7 @@ function CoinModal(props: {
 }
 
 export function App() {
+  const iconSrc = `${import.meta.env.BASE_URL}tourna-icon.svg`;
   const [wizardStep, setWizardStep] = useState<WizardStep>(1);
   const [draftConfig, setDraftConfig] = useState<MatchConfig>(createDraftConfig);
   const [match, setMatch] = useState<MatchState>(() => createMatch(createDraftConfig()));
@@ -715,7 +716,7 @@ export function App() {
       {wizardStep === 1 ? (
         <section className="panel compact-panel">
           <div className="section-heading">
-            <img className="brand-mark" src="/tourna-icon.svg" alt="Tourna icon" />
+            <img className="brand-mark" src={iconSrc} alt="Tourna icon" />
             <span className="eyebrow">Step 1</span>
           </div>
 
@@ -816,7 +817,7 @@ export function App() {
       {wizardStep === 2 ? (
         <section className="panel compact-panel">
           <div className="section-heading">
-            <img className="brand-mark" src="/tourna-icon.svg" alt="Tourna icon" />
+            <img className="brand-mark" src={iconSrc} alt="Tourna icon" />
             <span className="eyebrow">Step 2</span>
             {coinResult ? (
               <div className={`coin-result-badge ${coinResult}`}>
@@ -962,7 +963,7 @@ export function App() {
         <section className="panel scoreboard-panel">
           <div className="scoreboard-toolbar">
             <div className="scoreboard-meta">
-              <img className="brand-mark small" src="/tourna-icon.svg" alt="Tourna icon" />
+              <img className="brand-mark small" src={iconSrc} alt="Tourna icon" />
               <span className="eyebrow">Live match</span>
             </div>
             <h1 className="scoreboard-title">
