@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="524px" viewBox="0 0 348 524" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Frame</title>
+    <defs>
+        <path d="M0,0 L348,0 L348,524 L0,524 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Frame" stroke="none" fill="none" xlink:href="#path-1" fill-rule="evenodd" stroke-linecap="round" stroke-width="1">
+        <g id="Group" transform="translate(71.5, 71.5)" stroke="#000000">
+            <polyline id="Line" stroke-width="10" points="-4.81385765e-16 125 111 60 106.93293 366.296562"></polyline>
+            <polyline id="Line" stroke-width="10" points="40 65 151 1.41469231e-14 146.93293 306.296562"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+
+desktop-scoreboard.png
+iphone-scoreboard.png
+live-screen.png
+mobile-pass-step1.png
+mobile-pass-step2.png
+mobile-pass-step3.png
+setup-screen.png
+step1-players.png
+step2-setup.png
+step3-scoreboard.png
+step3-timeout.png
+timeout-overlay.png
